@@ -19,7 +19,6 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object AppModule {
 
-
     @Singleton
     @Provides
     fun provideDatabase(@ApplicationContext context: Context) =
@@ -41,4 +40,5 @@ object AppModule {
         dao: BookDao,
         localDataSource: LocalDataSource
     ) = AppRepository(dao, localDataSource) as BaseRepository
+
 }

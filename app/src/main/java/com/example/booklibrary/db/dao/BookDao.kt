@@ -11,17 +11,14 @@ interface BookDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insert(list: List<Book>)
 
-
     @Update
     suspend fun update(book: Book)
-
 
     @Query("SELECT * FROM Book")
     fun getAllBook(): LiveData<List<Book>>
 
     @Query("SELECT * FROM Book WHERE BORROWED = 1")
     fun getBorrowBook(): LiveData<List<Book>>
-
 
     @Query("SELECT Count(*) FROM Book")
     fun getCount(): Int

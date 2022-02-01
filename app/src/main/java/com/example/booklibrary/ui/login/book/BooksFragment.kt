@@ -38,17 +38,12 @@ class BooksFragment : Fragment(), BookAdapter.CellClickListener {
         _binding = FragmentBooksBinding.inflate(inflater,container,false)
 
 
-
-
-
     return binding.root
     }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-
 
         bookAdapter= BookAdapter(this)
         binding.rvFilmes.apply {
@@ -64,15 +59,12 @@ class BooksFragment : Fragment(), BookAdapter.CellClickListener {
 
         }
 
-
     }
 
 
     override fun onCellClickListener(data: Book) {
 
             val q = data.BOOK_QTY-1
-
-
 
         GlobalScope.launch {
             viewModel1.update(Book(data.BOOKID,data.BOOK_NAME,q,true))

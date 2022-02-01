@@ -43,10 +43,7 @@ class BorrowFragment : Fragment(), BorrowAdapter.CellClickListener1 {
         super.onViewCreated(view, savedInstanceState)
 
         bookAdapter= BorrowAdapter(this)
-
-
             binding.borrowRv.apply {
-
                 layoutManager = LinearLayoutManager(requireContext())
                 setHasFixedSize(true)
                 adapter = bookAdapter
@@ -56,7 +53,6 @@ class BorrowFragment : Fragment(), BorrowAdapter.CellClickListener1 {
 
 
         viewModel1.getBorrowBook().observe(requireActivity()) { listTvShows1 ->
-
             Log.d("data borrow", listTvShows1.toString())
             Toast.makeText(requireContext(),listTvShows1.toString(),Toast.LENGTH_LONG).show()
             bookAdapter.tvShows1=listTvShows1
@@ -68,7 +64,6 @@ class BorrowFragment : Fragment(), BorrowAdapter.CellClickListener1 {
 
     override fun onCellClickListener1(data: Book) {
         val q = data.BOOK_QTY+1
-
         GlobalScope.launch {
             viewModel1.update(Book(data.BOOKID,data.BOOK_NAME,q,false))
             delay(500)

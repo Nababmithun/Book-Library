@@ -34,16 +34,4 @@ class AppRepository @Inject constructor(
         return dao.getBorrowBook().asFlow()
     }
 
-    // =dao.getBorrowBook(status)
-  //  override suspend fun getBorrowBook(status: String): Flow<List<Book>> = dao.getBorrowBook().asFlow()
-//    return withContext(Dispatchers.IO) {
-//        val count = dao.getCount()
-//        if (count == 0) {
-//            dao.insert(localSource.getRestaurants())
-//        }
-//        dao.getAllBook().asFlow()
-//
-//    }
-//
-//    }
 }

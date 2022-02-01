@@ -35,6 +35,7 @@ class BookAdapter(private val cellClickListener: CellClickListener): RecyclerVie
         }
 
 
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FilmeViewHolder {
         return FilmeViewHolder(
             ListitembookBinding.inflate(
@@ -42,6 +43,7 @@ class BookAdapter(private val cellClickListener: CellClickListener): RecyclerVie
             )
         )
     }
+
 
     override fun onBindViewHolder(holder: FilmeViewHolder, position: Int) {
         val currentTvShow = tvShows[position]
@@ -69,8 +71,8 @@ class BookAdapter(private val cellClickListener: CellClickListener): RecyclerVie
 
     }
 
-    override fun getItemCount() = tvShows.size
 
+    override fun getItemCount() = tvShows.size
     interface CellClickListener {
         fun onCellClickListener(data: Book)
 
