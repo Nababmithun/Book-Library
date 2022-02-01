@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main.xml"
+    app:startDestination="@id/loginFragment">
+
+
+    <fragment
+        android:id="@+id/booksFragment"
+        android:name="com.example.booklibrary.ui.login.book.BooksFragment"
+        android:label="BooksFragment"
+        tools:layout="@layout/fragment_books">
+        <action
+            android:id="@+id/action_booksFragment_to_borrowFragment"
+            app:destination="@id/borrowFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.booklibrary.ui.login.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_booksFragment"
+            app:destination="@id/booksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/borrowFragment"
+        android:name="com.example.booklibrary.ui.login.borrow.BorrowFragment"
+        android:label="fragment_borrow"
+        tools:layout="@layout/fragment_borrow" >
+        <action
+            android:id="@+id/action_borrowFragment_to_booksFragment"
+            app:destination="@id/booksFragment" />
+    </fragment>
+</navigation>

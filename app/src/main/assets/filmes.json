@@ -1,0 +1,73 @@
+[
+  {
+    "BOOKID":1,
+    "BOOK_NAME":"গল্পগুলো অন্যরকম",
+    "BOOK_QTY":1,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":2,
+    "BOOK_NAME":"ইচ্ছা পূরণ",
+    "BOOK_QTY":29,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":3,
+    "BOOK_NAME":"ছোটদের সেরা গল্প",
+    "BOOK_QTY":20,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":3,
+    "BOOK_NAME":"বাঙ্গালীর হাসির গল্প ২",
+    "BOOK_QTY":7,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":4,
+    "BOOK_NAME":"মধ্যবিত্ত",
+    "BOOK_QTY":1,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":5,
+    "BOOK_NAME":"গল্প সমগ্র",
+    "BOOK_QTY":2,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":6,
+    "BOOK_NAME":"মেঘ রোদ্দুর বৃষ্টি",
+    "BOOK_QTY":6,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":7,
+    "BOOK_NAME":"জঙ্গলের কাহিনী",
+    "BOOK_QTY":5,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":8,
+    "BOOK_NAME":"শেয়াল ও বিড়াল",
+    "BOOK_QTY":1,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":9,
+    "BOOK_NAME":"শিশুকাহিনী",
+    "BOOK_QTY":13,
+    "BORROWED": false
+  },
+  {
+    "BOOKID":10,
+    "BOOK_NAME":"শ্রেষ্ঠ গল্প",
+    "BOOK_QTY":2,
+    "BORROWED": true   },
+  {
+    "BOOKID":11,
+    "BOOK_NAME":"প্রোডাক্টিভ মুসলিম",
+    "BOOK_QTY":4,
+    "BORROWED": false
+  }
+]
