@@ -3,13 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/drawable/button_login.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/drawable/return_layout_bg.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/drawable/round_bt.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/drawable/tt.xml" value="0.18425925925925926" />
         <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/drawable/ttyyround.xml" value="0.18425925925925926" />
-        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
-        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/fragment_books.xml" value="0.1796875" />
-        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/fragment_borrow.xml" value="0.1796875" />
-        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/fragment_login.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/listitembook.xml" value="0.22" />
+        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/fragment_books.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/fragment_borrow.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/fragment_login.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/listitembook.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/HP/Desktop/book library/app/src/main/res/layout/return_item_layout.xml" value="0.3333333333333333" />
       </map>
     </option>
   </component>
