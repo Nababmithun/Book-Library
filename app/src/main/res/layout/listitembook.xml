@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/normalMargin"
+    android:layout_width="180dp"
     app:cardCornerRadius="12dp"
     android:elevation="4dp"
-    android:layout_margin="10dp"
-    android:layout_width="180dp"
     android:layout_height="wrap_content">
-
-
 
        <androidx.constraintlayout.widget.ConstraintLayout
            android:layout_width="match_parent"
-           android:layout_margin="5dp"
+           android:layout_margin="@dimen/smallMargin"
            android:layout_gravity="center"
            android:layout_height="wrap_content">
 
@@ -20,13 +18,13 @@
                android:id="@+id/focus"
                android:layout_width="100dp"
                android:layout_height="100dp"
-               android:layout_marginTop="16dp"
-               android:background="@drawable/ttyyround"
+               android:layout_marginTop="@dimen/xxLargeMargin"
+               android:background="@drawable/pribackround"
                android:gravity="center"
                android:text="C"
                android:fontFamily="@font/nunito_regular"
                android:textColor="@color/black"
-               android:textSize="16dp"
+               android:textSize="@dimen/pre_regular_text_size"
                app:layout_constraintEnd_toEndOf="parent"
                app:layout_constraintStart_toStartOf="parent"
                app:layout_constraintTop_toTopOf="parent">
@@ -42,7 +40,7 @@
                android:textStyle="bold"
                android:fontFamily="@font/solaiman_lipi"
                android:textColor="@color/black"
-               android:textSize="20sp"
+               android:textSize="@dimen/xxxxxSmallText"
                app:layout_constraintEnd_toEndOf="@+id/focus"
                app:layout_constraintStart_toStartOf="@+id/focus"
                app:layout_constraintTop_toBottomOf="@+id/focus">
@@ -54,7 +52,7 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:text="@string/sub_head"
-               android:textColor="#DF0909"
+               android:textColor="@color/red"
                android:fontFamily="@font/nunito_regular"
                app:layout_constraintEnd_toStartOf="@+id/bookCount"
                app:layout_constraintHorizontal_chainStyle="packed"
@@ -81,11 +79,11 @@
                android:id="@+id/borrowButton"
                android:layout_width="0dp"
                android:layout_height="wrap_content"
-               android:layout_marginStart="16dp"
-               android:layout_marginTop="20dp"
-               android:layout_marginEnd="16dp"
-               android:layout_marginBottom="4dp"
-               android:background="@drawable/tt"
+               android:layout_marginStart="@dimen/xxLargeMargin"
+               android:layout_marginTop="@dimen/veryLargeMargin"
+               android:layout_marginEnd="@dimen/xxLargeMargin"
+               android:layout_marginBottom="@dimen/xSmallMargin"
+               android:background="@drawable/redbackround"
                android:text="@string/btn"
                android:textAllCaps="false"
                android:textColor="@color/white"
@@ -98,6 +96,5 @@
            </androidx.appcompat.widget.AppCompatButton>
 
        </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </androidx.cardview.widget.CardView>

@@ -55,7 +55,7 @@ class BookAdapter(private val cellClickListener: CellClickListener): RecyclerVie
             focus.text = s
             bookCount.text =currentTvShow.BOOK_QTY.toString()
             if(currentTvShow.BORROWED==false){
-                borrowButton.setBackgroundResource(R.drawable.tt)
+                borrowButton.setBackgroundResource(R.drawable.redbackround)
                 borrowButton.text="Borrow"
             }else{
                 borrowButton.setBackgroundResource(R.drawable.ll)

@@ -2,25 +2,24 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:background="@drawable/return_layout_bg"
-    android:layout_margin="10dp"
-    android:layout_marginBottom="16dp"
+    android:layout_margin="@dimen/normalMargin"
+    android:layout_marginBottom="@dimen/xxLargeMargin"
     android:layout_height="wrap_content">
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/appCompatFocusTextView"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_marginStart="4dp"
+            android:layout_marginStart="@dimen/xSmallMargin"
             android:background="@drawable/round_bt"
             android:gravity="center"
             android:text="C"
             android:fontFamily="@font/solaiman_lipi"
-            android:textColor="#ffffff"
-            android:textSize="30sp"
-            android:layout_marginTop="6dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/xxSmallText"
+            android:layout_marginTop="@dimen/mediumMargin"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -30,12 +29,12 @@
             android:id="@+id/book_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="6dp"
+            android:layout_marginStart="@dimen/mediumMargin"
             android:gravity="center"
             android:fontFamily="@font/solaiman_lipi"
             android:text="@string/name_n"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="@dimen/xxxxxbigText"
             app:layout_constraintBottom_toBottomOf="@+id/appCompatFocusTextView"
             app:layout_constraintStart_toEndOf="@+id/appCompatFocusTextView"
             app:layout_constraintTop_toTopOf="@+id/appCompatFocusTextView">
@@ -45,9 +44,9 @@
         android:id="@+id/returnButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="4dp"
+        android:layout_marginStart="@dimen/xSmallMargin"
+        android:layout_marginTop="@dimen/normalMargin"
+        android:layout_marginEnd="@dimen/xSmallMargin"
         android:layout_marginBottom="6dp"
         android:fontFamily="@font/nunito_bold"
         android:background="@drawable/return_button_bg"
@@ -59,4 +58,5 @@
         app:layout_constraintTop_toBottomOf="@+id/appCompatFocusTextView">
 
     </androidx.appcompat.widget.AppCompatButton>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

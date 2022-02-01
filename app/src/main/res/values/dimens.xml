@@ -9,8 +9,11 @@
 
     <!--Text-->
     <dimen name="xxxSmallText">10sp</dimen>
-    <dimen name="xxSmallText">11sp</dimen>
-    <dimen name="pre_regular_text_size">12sp</dimen>
+    <dimen name="xxSmallText">30sp</dimen>
+    <dimen name="pre_regular_text_size">15sp</dimen>
+    <dimen name="pre_regular_text_size1">14sp</dimen>
+    <dimen name="xxxxxSmallText">20sp</dimen>
+    <dimen name="xxxxxbigText">25sp</dimen>
 
     // Android default
     <dimen name="title_text_size">21sp</dimen>
@@ -40,14 +43,14 @@
     <dimen name="xxxSmallMargin">2dp</dimen>
     <dimen name="xxSmallMargin">3dp</dimen>
     <dimen name="xSmallMargin">4dp</dimen>
-    <dimen name="smallMargin">6dp</dimen>
-    <dimen name="mediumMargin">8dp</dimen>
+    <dimen name="smallMargin">5dp</dimen>
+    <dimen name="mediumMargin">6dp</dimen>
     <dimen name="normalMargin">10dp</dimen>
     <dimen name="largeMargin">12dp</dimen>
     <dimen name="xLargeMargin">14dp</dimen>
     <dimen name="xxLargeMargin">16dp</dimen>
     <dimen name="xxxLargeMargin">18dp</dimen>
-    <dimen name="veryLargeMargin">30dp</dimen>
+    <dimen name="veryLargeMargin">20dp</dimen>
 
 
     <!--Padding-->

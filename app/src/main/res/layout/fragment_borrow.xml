@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,7 +11,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-
         <androidx.appcompat.widget.AppCompatTextView
             android:layout_margin="10dp"
             android:id="@+id/appCompatTextView2"
@@ -19,7 +19,7 @@
             android:text="@string/my_book"
             android:fontFamily="@font/nunito_regular"
             android:textColor="@color/black"
-            android:textSize="30sp"
+            android:textSize="@dimen/xxSmallText"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -30,7 +30,7 @@
             android:id="@+id/borrowRv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/normalMargin"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -47,6 +47,5 @@
             app:layout_constraintGuide_percent="0.033046927" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
 
 </androidx.core.widget.NestedScrollView>

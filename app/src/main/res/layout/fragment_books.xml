@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:text="@string/my_library"
             android:textColor="@color/black"
-            android:textSize="30sp"
+            android:textSize="@dimen/xxSmallText"
             android:textStyle="bold"
             android:fontFamily="@font/nunito_regular"
             app:layout_constraintStart_toStartOf="parent"
@@ -48,4 +48,5 @@
             app:layout_constraintStart_toStartOf="parent"
             tools:listitem="@layout/listitembook" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
