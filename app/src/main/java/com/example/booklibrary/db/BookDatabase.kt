@@ -10,23 +10,4 @@ abstract class BookDatabase : RoomDatabase() {
 
     abstract fun toDoDao(): BookDao
 
-
-
-//    companion object {
-//        @Volatile
-//        private var INSTANCE: BookDatabase? = null
-//
-//        fun getDatabase(context: Context): BookDatabase =
-//            INSTANCE ?: synchronized(this) {
-//                INSTANCE
-//                    ?: buildDatabase(context).also { INSTANCE = it }
-//            }
-//
-//        private fun buildDatabase(context: Context) =
-//            Room.databaseBuilder(
-//                context.applicationContext,
-//                BookDatabase::class.java, "book_database"
-//            ).build()
-//    }
-
 }

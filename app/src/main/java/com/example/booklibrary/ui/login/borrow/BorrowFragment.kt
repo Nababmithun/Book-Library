@@ -69,9 +69,7 @@ class BorrowFragment : Fragment(), BorrowAdapter.CellClickListener1 {
             delay(500)
         }
 
-
         findNavController().navigate(R.id.action_borrowFragment_to_booksFragment)
     }
-
 
 }

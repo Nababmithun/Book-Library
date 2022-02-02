@@ -1,11 +1,14 @@
 package com.example.booklibrary.ui.login.book
 
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
+import androidx.annotation.RequiresApi
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
@@ -36,9 +39,7 @@ class BooksFragment : Fragment(), BookAdapter.CellClickListener {
     ): View? {
         // Inflate the layout for this fragment
         _binding = FragmentBooksBinding.inflate(inflater,container,false)
-
-
-    return binding.root
+        return binding.root
     }
 
 
@@ -63,7 +64,6 @@ class BooksFragment : Fragment(), BookAdapter.CellClickListener {
 
 
     override fun onCellClickListener(data: Book) {
-
             val q = data.BOOK_QTY-1
 
         GlobalScope.launch {
@@ -75,6 +75,5 @@ class BooksFragment : Fragment(), BookAdapter.CellClickListener {
             findNavController().navigate(R.id.action_booksFragment_to_borrowFragment)
 
     }
-
 
 }

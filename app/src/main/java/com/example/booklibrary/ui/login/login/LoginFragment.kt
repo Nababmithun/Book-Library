@@ -25,7 +25,6 @@ class LoginFragment : Fragment() {
         val user= UserData( "Admin", "Admin@123")
         binding.buttonLogin1.setOnClickListener {
             if (user.email==binding.etEmail.text.toString() && user.pass==binding.etpassword.text.toString()){
-
                 findNavController().navigate(R.id.action_loginFragment_to_booksFragment)
             }else{
                 Toast.makeText(requireContext(),"Something Wrong",Toast.LENGTH_LONG).show()
